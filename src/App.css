@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 10px;
+}
+
+h1,
+h3,
+h4 {
+  color: #000000;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #555555;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #555555;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.table tbody tr:hover {
+  background-color: #d0d0d0;
+}
+
+.update-form {
+  background-color: #f0f0f0;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.update-form label {
+  color: #000000;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.update-form input[type="text"],
+.update-form input[type="email"],
+.update-form input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #555555;
+  background-color: #e0e0e0;
+  color: #000000;
+}
+
+.update-form input[type="text"]:focus,
+.update-form input[type="email"]:focus,
+.update-form input[type="tel"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.selected-row {
+  background-color: #f0f0f0;
+}
